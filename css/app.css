@@ -66,6 +66,16 @@ a{
     border: none;
 }
 
+/* MENU BAR */
+
+.viewport_menu li{
+    font-size: 1.4rem;
+}
+
+.text_menu_icon{
+    display: none;
+}
+
 @media (min-width: 576px) {
 
 }
@@ -80,6 +90,16 @@ a{
     .icon_nav{
         display: block;
     }
+
+    .viewport_menu{
+        flex-basis: 150px;
+    }
+    
+    .menu_icon,.text_menu_icon{
+        display: inline-block;
+    }
+    
+
 }
 
 
