@@ -45,7 +45,7 @@ a{
 
 /* NAVBAR */
 
-.navbar-brand img{
+.img_small{
     width: 50px;
 }
 
@@ -64,6 +64,10 @@ a{
 .icon_nav{
     display: none;
     border: none;
+}
+
+.img_large{
+    display: none;
 }
 
 /* MENU BAR */
@@ -89,6 +93,18 @@ a{
 @media (min-width: 992px) {
     .icon_nav{
         display: block;
+    }
+
+    .d-flex {
+        flex-basis: 70%;
+    }
+
+    .img_large{
+        display: inline;
+    }
+
+    .img_small{
+        display: none;
     }
 
     .viewport_menu{
