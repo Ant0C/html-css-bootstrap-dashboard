@@ -11,6 +11,9 @@
 </head>
 
 <body class="container-viewport">
+
+    <!-- NAVBAR -->
+
     <header class="viewport_navbar">
         <nav class="navbar">
             <div class="container-fluid">
@@ -20,7 +23,8 @@
                 </a>
 
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input class="form-control me-2" type="search" placeholder="Prova a carcare: Lezioni di Laravel" aria-label="Search">
                 </form>
                 
                 <button class="navbar-toggler border-0 icon_nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,6 +48,8 @@
 
     <div class="viewport_main">
 
+        <!-- MENU -->
+
         <aside class="viewport_menu py-4 text-white">
             <ul class="row flex-column row-cols-1">
                 <li class="col-12 menu_icon">
@@ -64,6 +70,8 @@
                 </li>
             </ul>
         </aside>
+
+        <!-- TOOLBAR -->
 
         <main class="viewport_body">
             <section class="row flex-sm-column flex-md-row align-items-center upbar_body">
@@ -102,10 +110,306 @@
                 </div>
             </section>
 
-            <section class="page_body">
-                <div class="">
+            <!-- BODY PAGE -->
 
+            <section class="page_body">
+
+                <div class="">
+                    <div class="row justify-content-center">
+                        <div class="row col-lg-8 flex-sm-column py-4 row-gap-3">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                    Prossime Classi
+                                    </div>
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">
+                                                    Nome
+                                                </th>
+                                                <th scope="col" class="cell text-center">
+                                                    Data inizio
+                                                </th>
+                                                <th scope="col" class="cell text-center">
+                                                    ROI
+                                                </th>
+                                                <th scope="col" class="text-center">
+                                                    Stato
+                                                </th>
+                                                <th scope="col" class="text-center">
+                                                    Azioni
+                                                </th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75
+                                                </th>
+                                                <td class="cell text-center">
+                                                    15 feb 2021
+                                                </td>
+                                                <td class="cell text-center">
+                                                    20%
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="tag--done">Done</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75
+                                                </th>
+                                                <td class="cell text-center">
+                                                    15 feb 2021
+                                                </td>
+                                                <td class="cell text-center">
+                                                    20%
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="tag--done">Done</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75
+                                                </th>
+                                                <td class="cell text-center">
+                                                    15 feb 2021
+                                                </td>
+                                                <td class="cell text-center">
+                                                    20%
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="tag--done">Done</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75
+                                                </th>
+                                                <td class="cell text-center">
+                                                    15 feb 2021
+                                                </td>
+                                                <td class="cell text-center">
+                                                    20%
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="tag--done">Done</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75
+                                                </th>
+                                                <td class="cell text-center">
+                                                    15 feb 2021
+                                                </td>
+                                                <td class="cell text-center">
+                                                    20%
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="tag--done">Done</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75
+                                                </th>
+                                                <td class="cell text-center">
+                                                    15 feb 2021
+                                                </td>
+                                                <td class="cell text-center">
+                                                    20%
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="tag--done">Done</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">
+                                                    <img src="./img/class-avatar.jpg" alt="">
+                                                    Classe 75
+                                                </th>
+                                                <td class="cell text-center">
+                                                    15 feb 2021
+                                                </td>
+                                                <td class="cell text-center">
+                                                    20%
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="tag--done">Done</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-pen"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-dark">
+                                                        <i class="fa-solid fa-trash-can"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="col card">
+                                    <div class="card-header">
+                                        F.Q.A.
+                                    </div>
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Come aggiungere un nuovo studente ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Come aggiungere un nuovo studente.
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Come posso accedere alle informazioni del mio account ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Come posso accedere alle informazioni del mio account.
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Posso usare questa dashboard da mobile ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Posso usare questa dashboard da mobile.
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-lg-4 flex-sm-column py-4 row-gap-3">
+                            <div class="col-12">
+                                <div class="col card">
+                                    <div class="card-header">
+                                        Todo
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                Kickof nuove classi
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Lezioni su bootstrap 5 su classe #75
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                            <label class="form-check-label" for="flexCheckChecked">
+                                                Controllare username github studenti
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="col card">
+                                    <img src="https://www150.statcan.gc.ca/n1/edu/power-pouvoir/c-g/c-g05-2-1-eng.png" class="card-img-top" alt="ok">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Utenti attivi</h5>
+                                        <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">
+                                                Gennaio: 1200
+                                            </li>
+                                            <li class="list-group-item">
+                                                Febbraio: 800
+                                            </li>
+                                            <li class="list-group-item">
+                                                Marzo: 1500
+                                            </li>
+                                            <li class="list-group-item">
+                                                <a href="#" class="">Visualizza report approfrondito</a>
+                                            </li>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </section>
 
         </main>
