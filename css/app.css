@@ -86,7 +86,7 @@ a{
     border-radius: 10px;
 }
 
-/* UPBAR BODY */
+/* TOOLBAR BODY */
 
 .upbar_body{
     height: auto;
@@ -121,8 +121,26 @@ a{
     width: 35px;
 }
 
+/* PAGE BODY */
+
 .tag--done{
     background-color: green;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 12px;
+    color: white;
+}
+
+.tag--process{
+    background-color: rgb(255, 217, 0);
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 12px;
+    color: white;
+}
+
+.tag--failed{
+    background-color: red;
     border-radius: 10px;
     padding: 4px;
     font-size: 12px;
