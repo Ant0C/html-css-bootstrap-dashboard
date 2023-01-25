@@ -118,7 +118,7 @@ a{
 }
 
 .table img{
-    width: 50px;
+    width: 35px;
 }
 
 .tag--done{
@@ -133,6 +133,10 @@ a{
     display: none;
 }
 
+.offcanvas{
+    min-width: 100%;
+}
+
 @media (min-width: 576px) {
 
 }
@@ -141,6 +145,10 @@ a{
 @media (min-width: 768px) {
     .cell{
         display: table-cell;
+    }
+
+    .offcanvas{
+        min-width: 400px;
     }
 }
 
