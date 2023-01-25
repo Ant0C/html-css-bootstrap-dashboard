@@ -6,11 +6,6 @@ ul,li,ol{
     list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-    color: currentColor;
-}
-
 /* LAYOUT PAGE */
 
 .container-viewport{
@@ -73,12 +68,21 @@ a{
 
 /* MENU/BAR */
 
+.ac_link{
+    text-decoration: none;
+    color: currentColor;
+}
+
 .viewport_menu li{
     font-size: 1.4rem;
 }
 
 .text_menu_icon{
     display: none;
+}
+
+.menu_icon:hover{
+    background-color: rgba(177, 173, 173, 0.76);
 }
 
 .ac_button{

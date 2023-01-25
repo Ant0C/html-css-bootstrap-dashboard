@@ -23,8 +23,10 @@
                 </a>
 
                 <form class="d-flex" role="search">
-                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    <input class="form-control me-2" type="search" placeholder="Prova a carcare: Lezioni di Laravel" aria-label="Search">
+                    <div class="input-group">
+                    <button class="btn input-group-text bg-dark-subtle" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input class="form-control me-2 bg-dark-subtle" type="search" placeholder="Prova a carcare: Lezioni di Laravel" aria-label="Search">
+                    </div>
                 </form>
                 
                 <button class="navbar-toggler border-0 icon_nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,21 +54,29 @@
 
         <aside class="viewport_menu py-4 text-white">
             <ul class="row flex-column row-cols-1">
-                <li class="col-12 menu_icon">
-                    <i class="fa-solid fa-house"></i>
-                    <p class="text_menu_icon">Home</p>
+                <li class="col-12 menu_icon hover">
+                    <a href="#" class="ac_link">
+                        <i class="fa-solid fa-house"></i>
+                        <p class="text_menu_icon">Home</p>
+                    </a>
                 </li>
                 <li class="col-12 menu_icon">
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <p class="text_menu_icon">Stats</p>
+                    <a href="#" class="ac_link">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p class="text_menu_icon">Stats</p>
+                    </a>
                 </li>
                 <li class="col-12 mb-auto menu_icon">
-                    <i class="fa-solid fa-signal"></i>
-                    <p class="text_menu_icon">Signals</p>
+                    <a href="#" class="ac_link">
+                        <i class="fa-solid fa-signal"></i>
+                        <p class="text_menu_icon">Signals</p>
+                    </a>
                 </li>
                 <li class="col-12 menu_icon">
-                    <i class="fa-solid fa-gear"></i>
-                    <p class="text_menu_icon">Admin</p>
+                    <a href="#" class="ac_link">
+                        <i class="fa-solid fa-gear"></i>
+                        <p class="text_menu_icon">Admin</p>
+                    </a>
                 </li>
             </ul>
         </aside>
@@ -203,10 +213,10 @@
                         <div class="row col-lg-8 flex-sm-column py-4 row-gap-3">
                             <div class="col-12">
                                 <div class="card">
-                                    <div class="card-header">
+                                    <div class="card-header fw-bold fs-4">
                                     Prossime Classi
                                     </div>
-                                        <table class="table table-hover">
+                                        <table class="table table-hover mb-0">
                                             <thead>
                                             <tr>
                                                 <th scope="col">
@@ -394,7 +404,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="col card">
-                                    <div class="card-header">
+                                    <div class="card-header fw-bold fs-4">
                                         F.Q.A.
                                     </div>
                                     <div class="accordion" id="accordionExample">
@@ -438,10 +448,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row col-lg-4 flex-sm-column py-4 row-gap-3">
+                        <div class="row col-lg-4 justify-content-lg-between flex-sm-column py-4 row-gap-3">
                             <div class="col-12">
                                 <div class="col card">
-                                    <div class="card-header">
+                                    <div class="card-header fw-bold fs-4">
                                         Todo
                                     </div>
                                     <div class="card-body">
